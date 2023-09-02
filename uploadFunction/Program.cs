@@ -23,11 +23,8 @@ namespace FanucFocasTutorial1
     {
         static ushort _handle = 0;
         static short _ret = 0;
-        static int len, fileLen;
-        static int startPos = 0;
         static string messg;
         static bool _exit = false;
-        static string pathFile = ""
 
         static void Main(string[] args)
         {
@@ -60,17 +57,11 @@ namespace FanucFocasTutorial1
                 /*int partcount = GetPartCount();
                 Console.WriteLine($"\n\nPart Count is: {partcount}\n\n");*/
 
-                //Ejecuta la función para descargar un NC al CNC
-                string downloadOrNot = downloadToCNC();
+                //Ejecuta la función para descargar archivos desde el CNC
+                string programPath = "//CNC_MEM/USER/PATH1/FILE1"
+                string path = @"C:\Users\ramir\Desktop\CNC FOCAS\file1"; //Aca el path (con el nombre del archivo que se quiere crear) donde se va a guardar todo el archivo que se descargue
+                string downloadOrNot = downloadFromCNC(programPath)
                 Console.WriteLine(downloadOrNot);
-
-                // Initialize your Fanuc class here if needed
-                /*var _fanuc = new Fanuc();
-                string prg_name = GetProgramName();
-                Console.Write($"\n\nProgram Name: {prg_name}");
-                short _programNumber = 182 ;
-                string prg_comment = GetProgramComment(_programNumber);
-                Console.Write($"\n\nProgram Comment: {prg_comment}");*/
         
             }
         }
@@ -78,7 +69,7 @@ namespace FanucFocasTutorial1
         {
             if (_handle == 0)
             {
-                Console.WriteLine("Error: Handle do not exist");
+                messg = "Error: Handle do not exist");
                 return "";
             }
             short typeOfData = 0;
@@ -100,7 +91,6 @@ namespace FanucFocasTutorial1
              Ejemplo de programName: //CNC_MEM/USER/PATH1/FILE1*/
             _ret = Focas1.cnc_upstart(_handle, typeOfData, programName);
             if (_ret != Focas1.EW_OK) return $"Error: the _ret was:{_ret}";
-            string path = ""; //Aca el path (con el nombre del archivo que se quiere crear) donde se va a guardar todo el archivo que se descargue
             int lenLastWrite = 0;
             do
             {
@@ -127,6 +117,7 @@ namespace FanucFocasTutorial1
                 }
                 Array.Clear(buff, 0, buff.Length); //Como lo descargado ya se guardo en un archivo se borra todo y se empieza a descargar lo siguiente
             } while ((ret == Focas1.EW_OK) || (ret == (short)Focas1.focas_ret.EW_BUFFER));
+
             _ret = Focas1.cnc_upend4(_handle); 
 
             if (_ret != Focas1.EW_OK)
@@ -250,52 +241,5 @@ namespace FanucFocasTutorial1
                 default: { return "UNAVAILABLE"; }
             }
         }
-        /*public static string GetProgramName()
-        {
-            if (_handle == 0)
-            {
-                return "UNAVAILABLE";
-            }
-
-            Focas1.ODBEXEPRG rdProg = new Focas1.ODBEXEPRG();
-
-            _ret = Focas1.cnc_exeprgname(_handle, rdProg);
-
-            if (_ret != Focas1.EW_OK)
-                return _ret.ToString();
-            return new string(rdProg.name).Trim('\0');
-        }
-        public static int GetPartCount()
-        {
-            Focas1.IODBPSD_1 partcount = new Focas1.IODBPSD_1();
-            _ret = Focas1.cnc_rdparam3(_handle, 6711, 0, 8, 0, partcount);
-            if (_ret != Focas1.EW_OK)
-                return 0;
-            return partcount.ldata;
-        }
-
-        
-        public static string GetProgramComment(short _programNumber)
-        {
-            Focas1.PRGDIR2 dir = new Focas1.PRGDIR2(); // array to hold the program directory information
-            short num = 1; // How much programs to be read
-
-            short ret = Focas1.cnc_rdprogdir2(_handle, 1, ref _programNumber, ref num, dir);
-
-            if (ret != Focas1.EW_OK)
-            {
-                throw new Exception($"Cannot retrieve data about the program directory. Error {ret}");
-            }
-            else
-            {
-                // Convert the character array to a string
-                StringBuilder commentBuilder = new StringBuilder();
-                for (int i = 0; i < dir.dir1.comment.Length && dir.dir1.comment[i] != '\0'; i++)
-                {
-                    commentBuilder.Append(dir.dir1.comment[i]);
-                }
-                return commentBuilder.ToString();
-            }
-        }*/
     }
 }
