@@ -95,7 +95,7 @@ namespace FanucFocasTutorial1
             do
             {
                 len = BUFFSIZE;
-                ret = Focas1.cnc_upload4(h, ref len, buf);
+                ret = Focas1.cnc_upload4(_handle, ref len, buff);
                 if (ret == (short)Focas1.focas_ret.EW_BUFFER) //Buffer vacío
                 {
                     messg = "Error: EW_BUFFER - The Buffer is empty or full"
@@ -103,7 +103,7 @@ namespace FanucFocasTutorial1
                 }
                 if (ret == (short)Focas1.focas_ret.EW_OK)
                 {
-                    buf[len] = '\0'; //En la ultima posición de lo descargado se coloca '\0' señalizando el final del String leído
+                    buff[len] = '\0'; //En la ultima posición de lo descargado se coloca '\0' señalizando el final del String leído
                     using (FileStream oFS = File.Create(path)) ;
                     {
                         byte[] dataToWrite = new UTF8Encoding(true).getBytes(buff);
