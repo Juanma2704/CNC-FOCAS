@@ -1,0 +1,27 @@
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\bin\Debug\FanucFocasTutorial.exe.config
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\bin\Debug\FanucFocasTutorial.exe
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\bin\Debug\FanucFocasTutorial.pdb
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\obj\Debug\Connecting.csproj.AssemblyReference.cache
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\obj\Debug\Connecting.csproj.SuggestedBindingRedirects.cache
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\obj\Debug\Connecting.csproj.CoreCompileInputs.cache
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\obj\Debug\FanucFocasTutorial.exe
+C:\pythonvenv\FanucFocasTutorial-master\FanucFocasTutorial\obj\Debug\FanucFocasTutorial.pdb
+C:\Users\ramir\Desktop\CNC FOCAS\FanucFocas\FanucFocasTutorial\obj\Debug\Connecting.csproj.AssemblyReference.cache
+C:\Users\ramir\Desktop\CNC FOCAS\FanucFocas\FanucFocasTutorial\obj\Debug\Connecting.csproj.CoreCompileInputs.cache
+C:\Users\ramir\Desktop\CNC FOCAS\FanucFocas\FanucFocasTutorial\obj\Debug\FanucFocasTutorial.exe
+C:\Users\ramir\Desktop\CNC FOCAS\FanucFocas\FanucFocasTutorial\obj\Debug\FanucFocasTutorial.pdb
+C:\Users\ramir\Desktop\CNC FOCAS\FanucFocas\FanucFocasTutorial\bin\Debug\FanucFocasTutorial.exe.config
+C:\Users\ramir\Desktop\CNC FOCAS\FanucFocas\FanucFocasTutorial\bin\Debug\FanucFocasTutorial.exe
+C:\Users\ramir\Desktop\CNC FOCAS\FanucFocas\FanucFocasTutorial\bin\Debug\FanucFocasTutorial.pdb
+C:\Users\ramir\Desktop\CNC FOCAS\uploadFunction\obj\Debug\Connecting.csproj.AssemblyReference.cache
+C:\Users\ramir\Desktop\CNC FOCAS\uploadFunction\obj\Debug\Connecting.csproj.CoreCompileInputs.cache
+C:\Users\ramir\Desktop\CNC FOCAS\uploadFunction\obj\Debug\FanucFocasTutorial.exe
+C:\Users\ramir\Desktop\CNC FOCAS\uploadFunction\obj\Debug\FanucFocasTutorial.pdb
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Debug\Connecting.csproj.AssemblyReference.cache
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Debug\Connecting.csproj.SuggestedBindingRedirects.cache
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Debug\Connecting.csproj.CoreCompileInputs.cache
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Debug\FanucFocasTutorial.exe
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Debug\FanucFocasTutorial.pdb
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\bin\Debug\FanucFocasTutorial.exe.config
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\bin\Debug\FanucFocasTutorial.exe
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\bin\Debug\FanucFocasTutorial.pdb

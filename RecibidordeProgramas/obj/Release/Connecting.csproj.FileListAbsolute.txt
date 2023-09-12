@@ -1,0 +1,8 @@
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Release\Connecting.csproj.AssemblyReference.cache
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Release\Connecting.csproj.SuggestedBindingRedirects.cache
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Release\Connecting.csproj.CoreCompileInputs.cache
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\bin\Release\FocasReceiver.exe.config
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\bin\Release\FocasReceiver.exe
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\bin\Release\FocasReceiver.pdb
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Release\FocasReceiver.exe
+C:\Autentio\Github\Autentio\Focas\RecibidordeProgramas\obj\Release\FocasReceiver.pdb

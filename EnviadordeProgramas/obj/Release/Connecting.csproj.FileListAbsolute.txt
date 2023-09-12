@@ -1,0 +1,24 @@
+C:\FanucFocasRama 1\obj\Release\Connecting.csproj.AssemblyReference.cache
+C:\FanucFocasRama 1\obj\Release\Connecting.csproj.SuggestedBindingRedirects.cache
+C:\FanucFocasRama 1\obj\Release\Connecting.csproj.CoreCompileInputs.cache
+C:\FanucFocasRama 1\bin\Release\FanucFocasTutorial.exe.config
+C:\FanucFocasRama 1\bin\Release\FanucFocasTutorial.exe
+C:\FanucFocasRama 1\bin\Release\FanucFocasTutorial.pdb
+C:\FanucFocasRama 1\obj\Release\FanucFocasTutorial.exe
+C:\FanucFocasRama 1\obj\Release\FanucFocasTutorial.pdb
+C:\FANUC-FOCAS\EnviadordeProgramas\bin\Release\FanucFocasTutorial.exe.config
+C:\FANUC-FOCAS\EnviadordeProgramas\bin\Release\FanucFocasTutorial.exe
+C:\FANUC-FOCAS\EnviadordeProgramas\bin\Release\FanucFocasTutorial.pdb
+C:\FANUC-FOCAS\EnviadordeProgramas\obj\Release\Connecting.csproj.AssemblyReference.cache
+C:\FANUC-FOCAS\EnviadordeProgramas\obj\Release\Connecting.csproj.SuggestedBindingRedirects.cache
+C:\FANUC-FOCAS\EnviadordeProgramas\obj\Release\Connecting.csproj.CoreCompileInputs.cache
+C:\FANUC-FOCAS\EnviadordeProgramas\obj\Release\FanucFocasTutorial.exe
+C:\FANUC-FOCAS\EnviadordeProgramas\obj\Release\FanucFocasTutorial.pdb
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\obj\Release\Connecting.csproj.AssemblyReference.cache
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\obj\Release\Connecting.csproj.SuggestedBindingRedirects.cache
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\obj\Release\Connecting.csproj.CoreCompileInputs.cache
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\bin\Release\FocasSender.exe.config
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\bin\Release\FocasSender.exe
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\bin\Release\FocasSender.pdb
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\obj\Release\FocasSender.exe
+C:\Autentio\Github\Autentio\Focas\EnviadordeProgramas\obj\Release\FocasSender.pdb
