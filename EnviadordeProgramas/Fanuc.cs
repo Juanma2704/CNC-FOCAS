@@ -13,7 +13,7 @@ namespace FanucFocasTutorial
 
         /*private static Fanuc _fanuc;
 
-        private double _scale = 10000;
+        private double _scale = 10000;sdsefgrhyju
         */
 
             
